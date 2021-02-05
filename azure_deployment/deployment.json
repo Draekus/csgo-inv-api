@@ -1,0 +1,112 @@
+{
+  "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-1085f958-8515",
+  "name": "Microsoft.Web-WebApp-Portal-1085f958-8515",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourcegroups/API/providers/Microsoft.Web/sites/csgo-api",
+    "marketplaceItemId": "Microsoft.WebSite"
+  },
+  "properties": {
+    "templateHash": "4883191733679320624",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "b01c5864-a609-4b41-9d99-4d134bf38cd6"
+      },
+      "name": {
+        "type": "String",
+        "value": "csgo-api"
+      },
+      "location": {
+        "type": "String",
+        "value": "East US 2"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-API-8ae0"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "API"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      },
+      "sku": {
+        "type": "String",
+        "value": "Free"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "F1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "linuxFxVersion": {
+        "type": "String",
+        "value": "NODE|12-lts"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-02-05T12:48:18.2433125Z",
+    "duration": "PT36.6823646S",
+    "correlationId": "9fefe9f4-ee67-440c-ba3e-35536c4a91ea",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "eastus2"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "eastus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/serverfarms/ASP-API-8ae0",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-API-8ae0"
+          }
+        ],
+        "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/sites/csgo-api",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "csgo-api"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/serverfarms/ASP-API-8ae0"
+      },
+      {
+        "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/sites/csgo-api"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

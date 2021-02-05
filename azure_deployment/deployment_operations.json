@@ -1,0 +1,50 @@
+[
+  {
+    "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-1085f958-8515/operations/C9920907B802C99B",
+    "operationId": "C9920907B802C99B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-02-05T12:48:17.3778296Z",
+      "duration": "PT34.7166772S",
+      "trackingId": "e63e73ee-f98e-4568-b14f-e8a4bb0ddd30",
+      "serviceRequestId": "2283b0fa-4229-4638-a87d-5c7bf639371a",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/sites/csgo-api",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "csgo-api"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-1085f958-8515/operations/5EA7A02ED8BF4DD4",
+    "operationId": "5EA7A02ED8BF4DD4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-02-05T12:47:57.2405229Z",
+      "duration": "PT14.5793705S",
+      "trackingId": "dbeb3209-1a96-4b09-8c2b-761199988a4f",
+      "serviceRequestId": "967df652-eca6-4949-b631-cb504153f330",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Web/serverfarms/ASP-API-8ae0",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-API-8ae0"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b01c5864-a609-4b41-9d99-4d134bf38cd6/resourceGroups/API/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-1085f958-8515/operations/08585890776239166768",
+    "operationId": "08585890776239166768",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-02-05T12:48:18.0416454Z",
+      "duration": "PT35.380493S",
+      "trackingId": "591ab1cf-a0ac-4644-a941-ac472b435380",
+      "statusCode": "OK"
+    }
+  }
+]
